@@ -1,6 +1,0 @@
-test
-1
-2
-hello
-python000000000
-makers

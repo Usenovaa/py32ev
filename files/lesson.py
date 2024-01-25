@@ -169,3 +169,9 @@ with open('test1.txt', 'w') as f1:
 # for i in f:
 #     print(i)
 
+
+def test_module_func():
+    pass
+
+
+lesson = 'files'
