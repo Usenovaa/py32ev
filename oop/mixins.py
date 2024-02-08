@@ -120,7 +120,21 @@ class Duck(FlyMixin, SwimMixin, WalkMixin):
     pass
 
 
-objects = [Human(), Fish(), Duck(), Human()]
+# objects = [Human(), Fish(), Duck(), Human()]
 
-for i in objects:
-    i.swim()
+# for i in objects:
+#     i.swim()
+
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+
+class P(Person):
+    def __init__(self, name, age, f):
+        super().__init__(name, age)
+        self.faculty = f
+
+a = P()
